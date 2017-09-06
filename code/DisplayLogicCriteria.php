@@ -3,8 +3,8 @@
 namespace UncleCheese\DisplayLogic;
 
 use SilverStripe\Core\Config\Config;
-use SilverStripe\Core\Object;
 use SilverStripe\Forms\FormField;
+use SilverStripe\View\ViewableData;
 
 /**
  *  Defines a set of criteria that control the display of a given
@@ -13,7 +13,7 @@ use SilverStripe\Forms\FormField;
  * @package  display_logic
  * @author  Uncle Cheese <unclecheese@leftandmain.com>
  */
-class DisplayLogicCriteria extends Object {
+class DisplayLogicCriteria extends ViewableData {
 
 
 	/**

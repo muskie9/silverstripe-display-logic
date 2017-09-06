@@ -2,7 +2,7 @@
 
 namespace UncleCheese\DisplayLogic;
 
-use SilverStripe\Core\Object;
+use SilverStripe\View\ViewableData;
 
 /**
  *  Defines a criterion that controls the display of a given
@@ -11,7 +11,7 @@ use SilverStripe\Core\Object;
  * @package  display_logic
  * @author  Uncle Cheese <unclecheese@leftandmain.com>
  */
-class DisplayLogicCriterion extends Object {
+class DisplayLogicCriterion extends ViewableData {
 
 
 	/**
